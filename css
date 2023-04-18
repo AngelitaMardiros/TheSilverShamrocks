@@ -1,0 +1,991 @@
+/***************/
+/*** FONTS  ****/
+/***************/
+@font-face {
+font-family: 'Platform Web';
+src: url('/wp-content/themes/Divi_Child/fonts/Platform-Medium-Web.woff2') format('woff2');
+}
+
+
+
+@font-face {
+font-family: 'Lyon Display Web';
+src: url('/wp-content/themes/Divi_Child/fonts/LyonDisplay-Regular-Web.woff2') format('woff2');
+}
+
+
+@font-face {
+font-family: 'Lyon Display Italic Web';
+src: url('/wp-content/themes/Divi_Child/fonts/LyonDisplay-RegularItalic-Web.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'Eustache-Regular';
+    src: url(/wp-content/themes/Divi_Child/fonts/Eustache-Regular.woff) format('woff');
+}
+
+
+h1 {
+	font-family: 'Platform Web' !important;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 36px;
+	line-height: 1.1em;
+	color: #0a0a0a;
+}
+
+h2 {
+	font-family: 'Platform Web' !important;
+	font-weight: 500;
+	line-height: 120%;
+	font-style: normal;
+	color: #0a0a0a;
+	
+}
+
+h3 {
+	font-family: 'Lyon Display Web' !important;
+	font-weight: 400;
+	line-height: 1.6em;
+	color: #0a0a0a;
+}
+
+
+h4 {
+	font-family: 'Platform Web' !important;
+	font-weight: 500;
+}
+
+
+h5 {
+	font-family: 'Lyon Display Italic Web' !important;
+	font-weight: 500;
+}
+
+body {
+	font-family: 'Lyon Display Web' !important;
+	font-weight: 400;
+	line-height: 1.6em;
+	color: #0a0a0a;
+}
+
+
+/***************/
+/*** BUTTONS ***/
+/***************/
+
+.et_pb_button_module_wrapper .et_pb_button.freddie_button_good_old .button_arrow:before {
+    color: #E5565D !important;
+}
+
+.et_pb_button_module_wrapper .et_pb_button.freddie_button_good_old .button_bg {
+    background-color: #fff !important;
+}
+
+
+
+
+/********************/
+/*** NAVIGATION  ****/
+/********************/
+
+.dtb-menu .et-menu .menu-item-has-children>a:first-child:after {
+	display: none;
+}
+
+
+/**************/
+/*** FOOTER ***/
+/**************/
+/*shambrella social media icons*/
+.grace_footer_alors .et_pb_social_media_follow li a.icon::after {
+    background: #003300 !important;
+}
+
+
+/*mobile footer menu*/
+@media only screen and (max-width: 980px){
+
+.mobile-menu .et_pb_menu .et_pb_mobile_menu_upwards .et_mobile_menu, .et_pb_fullwidth_menu .et_pb_mobile_menu_upwards .et_mobile_menu {
+    top: auto;
+    bottom: 100%;
+    width: auto !important;
+    padding: 10px !important;
+    margin-bottom: 10px !important;}
+}
+	
+/*center instagram feed*/
+    footer #instagram .et_pb_gallery_items{
+     display: flex;
+    justify-content: center; 
+}
+	 
+
+/*intsagram feed mobile*/
+
+	/* Set the image widths */
+.mobile-instagram .et_pb_gallery_grid .et_pb_gallery_item,
+.et_pb_gallery_grid .column_width,
+.et_pb_gallery_grid .et_pb_gallery_image,
+.et_pb_gallery_grid .et_pb_gallery_image.portrait img
+{
+    width: 33.3% !important;
+}
+.mobile-instagram .et_pb_gallery_grid .et_pb_gallery_image img
+{
+    min-width: 33.3% !important;
+}
+
+/* Set the image heights */
+.mobile-instagram .et_pb_gallery_grid .et_pb_gallery_image,
+.et_pb_gallery_grid .et_pb_gallery_image.landscape img
+{
+    height: 33.3% !important;
+}
+.mobile-instagram .et_pb_gallery_grid .et_pb_gallery_image img
+{
+    min-height: 33.3% !important;
+}
+
+/* Set the spacing between images */
+.mobile-instagram .et_pb_gallery_grid .gutter_width { width: 0px; }
+.mobile-instagram  .et_pb_gallery_grid .et_pb_gallery_item { margin-bottom:0px !important; }
+
+.mobile-instagram  .et_pb_gallery_grid .et_pb_gallery_item { clear:none !important; }
+.mobile-instagram  .et_pb_gallery_grid .et_pb_gallery_item:nth-child(3n) { margin-right:0px !important; }
+.mobile-instagram  .et_pb_gallery_grid .et_pb_gallery_item:nth-child(3n+1) { clear:both !important; }
+.mobile-instagram  .et_pb_gallery_grid .et_pb_gallery_item { margin-right:0px !important; }
+.mobile-instagram  .et_pb_gallery_grid .et_pb_gallery_image img { min-height: 0px !important; }
+.mobile-instagram  .et_pb_gallery_grid .et_pb_gallery_image,
+.et_pb_gallery_grid .et_pb_gallery_image.landscape img{
+    height: auto !important;}
+
+
+/*intsagram feed tablet*/
+
+	/* Set the image widths */
+.tablet-instagram .et_pb_gallery_grid .et_pb_gallery_item,
+.et_pb_gallery_grid .column_width,
+.et_pb_gallery_grid .et_pb_gallery_image,
+.et_pb_gallery_grid .et_pb_gallery_image.portrait img
+{
+    width: 16.6% !important;
+}
+.mobile-instagram .et_pb_gallery_grid .et_pb_gallery_image img
+{
+    min-width: 16.6% !important;
+}
+
+/* Set the image heights */
+.tablet-instagram .et_pb_gallery_grid .et_pb_gallery_image,
+.et_pb_gallery_grid .et_pb_gallery_image.landscape img
+{
+    height: 16.6% !important;
+}
+.tablet-instagram .et_pb_gallery_grid .et_pb_gallery_image img
+{
+    min-height: 16.6% !important;
+}
+
+/* Set the spacing between images */
+.tablet-instagram .et_pb_gallery_grid .gutter_width { width: 0px; }
+.tablet-instagram  .et_pb_gallery_grid .et_pb_gallery_item { margin-bottom:0px !important; }
+
+.tablet-instagram  .et_pb_gallery_grid .et_pb_gallery_item { clear:none !important; }
+.tablet-instagram  .et_pb_gallery_grid .et_pb_gallery_item:nth-child(6n) { margin-right:0px !important; }
+.tablet-instagram  .et_pb_gallery_grid .et_pb_gallery_item:nth-child(6n+1) { clear:both !important; }
+.tablet-instagram  .et_pb_gallery_grid .et_pb_gallery_item { margin-right:0px !important; }
+.tablet-instagram  .et_pb_gallery_grid .et_pb_gallery_image img { min-height: 0px !important; }
+.tablet-instagram  .et_pb_gallery_grid .et_pb_gallery_image,
+.et_pb_gallery_grid .et_pb_gallery_image.landscape img{
+    height: auto !important;}
+
+
+/*instagram feed desktop*/
+/* Set the image widths */
+.instagram-footer .et_pb_gallery_grid .et_pb_gallery_item,
+.et_pb_gallery_grid .column_width,
+.et_pb_gallery_grid .et_pb_gallery_image,
+.et_pb_gallery_grid .et_pb_gallery_image.portrait img
+{
+    width: 115px !important;
+}
+.instagram-footer .et_pb_gallery_grid .et_pb_gallery_image img
+{
+    min-width: 115px !important;
+}
+
+/* Set the image heights */
+.instagram-footer .et_pb_gallery_grid .et_pb_gallery_image,
+.et_pb_gallery_grid .et_pb_gallery_image.landscape img
+{
+    height: 115px !important;
+}
+.instagram-footer .et_pb_gallery_grid .et_pb_gallery_image img
+{
+    min-height: 115px !important;
+}
+
+/* Set the spacing between images */
+.instagram-footer .et_pb_gallery_grid .gutter_width { width: 0px; }
+.instagram-footer .et_pb_gallery_grid .et_pb_gallery_item { margin-bottom:0px !important; }
+
+.instagram-footer .et_pb_gallery_grid .et_pb_gallery_item { clear:none !important; }
+.instagram-footer .et_pb_gallery_grid .et_pb_gallery_item:nth-child(11n) { margin-right:0 !important; }
+.instagram-footer .et_pb_gallery_grid .et_pb_gallery_item:nth-child(11n+1) { clear:both !important; }
+.instagram-footer .et_pb_gallery_grid .et_pb_gallery_item { margin-right:0px !important; }
+.instagram-footer .et_pb_gallery_grid .et_pb_gallery_image img { min-height: 0 !important; }
+.instagram-footer .et_pb_gallery_grid .et_pb_gallery_image,
+.et_pb_gallery_grid .et_pb_gallery_image.landscape img{
+    height: auto !important;
+}
+
+
+
+/*******************/
+/*** HOME PAGE  ****/
+/*******************/
+
+/*Testimonials Section*/
+    
+#page-container .diana_boxy_testimonials .et_pb_slide_description .et_pb_slide_content {
+	font-family: 'Platform Web' !important;
+    text-transform: uppercase;
+    font-size: 20px !important;
+	margin-top: 30px;
+}
+
+ #page-container .diana_boxy_testimonials .et_pb_slide_title:after {
+    /*border-top: 3px solid #E5565D !important;*/
+	 display: none;
+}
+
+.diana_boxy_testimonials .et-pb-slider-arrows .et-pb-arrow-next, .et-pb-arrow-prev {
+	color: #E5565D !important;
+}
+
+
+#page-container .diana_boxy_testimonials .et-pb-slider-arrows {
+    margin-top: 17px !important;
+}
+
+/*Tickle your tastebuds Additional Services Section*/
+.grace_blurbs_diadem .et_pb_blurb .et_pb_blurb_description a {
+    font-weight: 500!important;
+    font-family: 'Platform Web' !important;
+    text-transform: uppercase;
+	letter-spacing: 0.5px !important;
+}
+
+
+
+/******************/
+/*** ABOUT PAGE ***/
+/******************/
+/*team bios slider*/
+.coco_tall_person_module .et_pb_team_member:not(.active_member) {
+display: block;
+}
+
+.coco_tall_person_module .active_member {
+z-index: 5;
+background: #fff;
+}
+
+.coco_tall_person_module .slider_number {
+z-index: 10;
+}
+
+.coco_tall_person_module .et_pb_team_member .et_pb_team_member_description {
+    background-color: #F7F7F2;
+}
+
+.coco_tall_person_module .slider_number .slider_active_number {
+    color: #E5565D !important;
+    font-size: 57px;
+    font-weight: 500;
+    vertical-align: middle;
+}
+
+.coco_tall_person_module .slider_number {
+    color: #0a0a0a !important;
+    font-size: 24px;
+    font-family: 'lyon display web'!important;
+}
+
+#page-container .coco_tall_person_module .coco-person-slider-arrows a {
+    color: #E5565D !important;
+}
+
+#page-container .coco_tall_person_module .coco-person-slider-arrows a:hover {
+    color: #fff !important;
+    background-color: #E5565D !important;
+}
+
+@media only screen and (max-width: 1390px) {
+.coco_tall_person_module .et_pb_team_member.active_member {
+    left: 49% !important;
+    width: 60% !important;
+    max-width: 650px;
+	}
+	
+.coco_tall_person_module .coco-person-slider-arrows {
+	left: 47% !important;
+    top: -150px;
+	}
+}
+
+/*team bio flip cards */
+#page-container .ragnar_person_gunnef .et_pb_team_member .et_pb_team_member_image:after {
+	display: none !important;
+}
+
+#page-container .ragnar_person_gunnef .et_pb_team_member .et_pb_team_member_image:before {
+	background: #fff !important;
+	opacity: .9 !important;
+}
+
+body.ragnar_person_gunnef .et_pb_team_member .et_pb_team_member_position {
+	padding-bottom: 30px !important;
+}
+
+/*parallax image*/
+.parahacks .et_parallax_bg {
+    background-position: center 0px !important;
+}
+
+
+
+/*****************************/
+/****EVENTS & CLASSES PAGE ***/
+/*****************************/
+
+/* Private Events Contact Form*/
+.ragnar_contact_form_dove .et_pb_contact .et_pb_contact_form p label {
+    font-family: 'lyon display web' !important;
+    font-size: 18px !important;
+    color: #0a0a0a;
+}
+
+.ragnar_contact_form_dove .et_pb_contact .et_pb_contact_form p:hover label {
+    color: #0a0a0a !important;
+}
+
+.ragnar_contact_form_dove .et_pb_contact .et_pb_contact_form p.filled textarea,.ragnar_contact_form_dove .et_pb_contact .et_pb_contact_form p.focus textarea,.ragnar_contact_form_dove .et_pb_contact .et_pb_contact_form p.filled input,.ragnar_contact_form_dove .et_pb_contact .et_pb_contact_form p.focus input {
+    border-color: #E5565D !important;
+}
+
+.ragnar_contact_form_dove .et-pb-contact-message>ul li {
+    font-family: 'lyon display web' !important;
+    font-size: 18px;
+    color: #0a0a0a !important;
+}
+
+
+.ragnar_contact_form_dove .et-pb-contact-message>p {
+    font-family: 'lyon display web' !important;
+    font-size: 20px !important;
+    color: #0a0a0a !important;
+}
+
+
+/* Drink Small Wine Club Pricing Tables */
+.impi_victor_pricing_tables .et_pb_text ul li {
+    border-bottom: 2px solid #003300 !important;
+}
+#page-container .impi_victor_pricing_tables .et_pb_text ul li.active_menu_item {
+	color: #00632F !important;
+}
+
+#page-container .impi_victor_pricing_tables .et_pb_text ul li:hover {
+	color: #00632F !important;
+}
+
+#page-container .impi_victor_pricing_tables .et_pb_text ul li:before {
+    font-family: 'platform web' !important;
+}
+
+#page-container .impi_victor_pricing_tables .et_pb_column:hover {
+    border-color: #00632F !important;
+}
+
+#page-container .impi_victor_pricing_tables .et_pb_pricing_table:hover .et_pb_button_wrapper .et_pb_button {
+    border-color: #00632F !important;
+    background-color: #fff !important;
+	color: #0a0a0a !important;
+}
+
+/* FAQs Accordian */
+.tina_accordion_you_alone .et_pb_toggle_close:after {
+    background: #E5565D !important;
+}
+
+.tina_accordion_you_alone .et_pb_toggle:before,.tina_accordion_you_alone .et_pb_toggle:after {
+    content: "";
+    display: block;
+    width: 3px;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    top: 17px;
+    background: #E5565D !important;
+    transition: .4s;
+}
+
+
+
+/*****************************/
+/** CATERING INQUIERIES PAGE */
+/*****************************/
+/*contact form*/
+
+.grace_contact_wezen .et_pb_contact .et_pb_contact_form p label {
+    display: block!important;
+    font-family: 'lyon display web' !important;
+}
+
+.grace_contact_wezen p[data-id=pickup_date]:after {
+    content: "\e025";
+}
+
+.grace_contact_wezen p[data-id=pickup_date]:after {
+    display: block;
+    font-family: ETModules!important;
+    font-size: 17px;
+    color: #0a0a0a !important;
+    z-index: 99;
+    position: absolute;
+    right: 10px;
+    bottom: 15px;
+    visibility: visible;
+    opacity: 1;
+}
+
+.grace_contact_wezen .et_pb_contact .et_pb_contact_form p:hover label {
+    color: #0a0a0a!important;
+}
+
+.grace_contact_wezen .et_pb_contact .et_pb_contact_form p.filled input,.grace_contact_wezen .et_pb_contact .et_pb_contact_form p.filled textarea,.grace_contact_wezen .et_pb_contact .et_pb_contact_form p.focus input,.grace_contact_wezen .et_pb_contact .et_pb_contact_form p.focus textarea {
+    box-shadow: 0 4px 0 0 #00632F !important;
+}
+.grace_contact_wezen .et_pb_contact p input,.grace_contact_wezen .et_pb_contact p textarea,.grace_contact_wezen .et_pb_subscribe .et_pb_contact_field input,.grace_contact_wezen .et_pb_subscribe .et_pb_contact_field textarea {
+    box-shadow: 0 0 0 0 #00632F !important;
+}
+
+
+/* Testimonials layout */
+#page-container .tina_testimonial_one_can .et_pb_slider .et-pb-controllers a {
+	display: none !important;
+}
+.tina_testimonial_one_can .et-pb-slider-arrows {
+    margin-top: 5px !important;
+}
+
+.tina_testimonial_one_can .et_pb_slide_content p strong {
+    color: #0a0a0a !important;
+}
+
+.tina_testimonial_one_can .et-pb-slider-arrows>a span {
+    background-color: #E5565D !important;
+}
+
+.tina_testimonial_one_can .et-pb-slider-arrows>a.et-pb-arrow-prev span:after,.tina_testimonial_one_can .et-pb-slider-arrows>a.et-pb-arrow-prev span:before,.tina_testimonial_one_can .et-pb-slider-arrows>a.et-pb-arrow-next span:after,.tina_testimonial_one_can .et-pb-slider-arrows>a.et-pb-arrow-next span:before {
+    background-color: #e5565d !important;
+}
+
+.tina_testimonial_one_can .et-pb-slider-arrows>a:before {
+    font-family: 'platform web' !important;
+    text-transform: uppercase;
+}
+
+
+
+/**********************/
+/*** LOCATIONS PAGE ***/
+/**********************/
+/*side dish location images slider*/
+#page-container .grace_merga_v2_slider.grace_merga_slider .et-pb-slider-arrows a:before {
+    color: #e5565d!important;
+}
+
+#page-container .grace_merga_v2_slider.grace_merga_slider .et-pb-slider-arrows a span {
+    background-color: #e5565d!important;
+}
+
+
+
+/**********************/
+/*** THANK YOU PAGE ***/
+/**********************/
+#page-container .impi_case_study_video_content .et_pb_column .et_pb_blurb:hover h4.et_pb_module_header {
+    background-color: #fff !important;
+}
+
+/*disable lightbox on instagram section*/
+.disable-lightbox a {
+pointer-events: none;
+}
+ 
+.disable-lightbox .et_overlay {
+display: none !important;
+}
+
+
+/*******************************/
+/*** LUNCH AT SIDE DISH PAGE ***/
+/*******************************/
+
+/**************************/
+/*** TAKE AND BAKE PAGE ***/
+/**************************/
+/*take and bake monthly details tabs*/
+.tina_you_again_tabs .et_pb_tabs .et_pb_all_tabs {
+	padding-top: 88px !important;
+}
+.tina_you_again_tabs .et_pb_tabs ul.et_pb_tabs_controls li:after {
+    background-color: #00632F !important;
+}
+
+#page-container .tina_you_again_tabs .et_pb_tabs ul.et_pb_tabs_controls li a:hover {
+    color: #00632F !important;
+}
+
+#page-container .tina_you_again_tabs .et_pb_tab .et_pb_tab_content h2 {
+    color: inherit !important;
+    font-family: 'Lyon Display Web'!important;
+    font-weight: 400 !important;
+    font-size: 36px !important;
+	padding-bottom: 0px !important;
+}
+
+#page-container .tina_you_again_tabs .et_pb_tab .et_pb_tab_content h3 {
+    font-family: 'lyon display italic web' !important;
+    color: #0a0a0a !important;
+    font-size: 24px !important;
+}
+
+.tina_you_again_tabs .et_pb_tab .et_pb_tab_content a {
+	font-family: 'platform web';
+	font-size: 16px !important;
+	letter-spacing: 1px;
+	font-weight: 400;
+	padding: 10px 24px 10px 24px;
+	background-color: #0a0a0a !important;
+    border-radius: 0px !important;
+	border: 2px solid !important;
+	border-color: #0a0a0a !important;
+}
+
+body .tina_you_again_tabs .et_pb_tab .et_pb_tab_content a:hover {
+    background-color: #fff !important;
+    color: #0a0a0a !important;
+	border: 2px solid !important;
+	border-color: #0a0a0a !important;
+}
+
+/*special features menu section*/
+.grace_price_lists_caph .et_pb_blurb .et_pb_module_header::after {
+    content: "";
+    position: absolute;
+    right: auto;
+    top: 18px;
+    width: 90%;
+    height: 1px;
+    margin-left: 20px;
+    background: #00632F !important;
+    opacity: .5;
+    z-index: -1;
+}
+
+/*****************/
+/*** SHOP PAGE ***/
+/*****************/
+/* hide the no products to display message using orderable product layout shortcodes */
+.woocommerce-no-products-found {
+	display: none !important;
+}
+
+
+/********************************************/
+/*** WOOCOMMERCE ORDERABLE CUSTOMIZATIONS ***/
+/********************************************/
+
+/* Side Dish Lunch Menu - Orderable Tabs Styling */
+a.orderable-tabs__link {
+    font-weight: 500;
+    font-family: 'platform web' !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+    background: #fafafa !important;
+    color: #0a0a0a;
+    border: 1px solid #0a0a0a !important;
+}
+
+a.orderable-tabs__link:hover {
+    color: #0a0a0a !important;
+    background: #efefef !important;
+}
+
+/*content cards*/
+
+.orderable-product__actions-price {
+    font-family: 'Lyon Display Italic Web' !important;
+}
+
+.orderable-products-list__item .orderable-product {
+    border-radius: 0px;
+}
+
+/*buttons*/
+
+.orderable-button {
+    color: #0a0a0a;
+    border-color: #0a0a0a;
+    padding: 0 30px !important;
+    font-family: 'platform web';
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.orderable-button--out-of-stock {
+    border-color: #efefef !important;
+    color: #999999 !important;
+} 
+
+/*cart slideout drawer*/
+
+/*hide product image at hero of drawer*/
+.orderable-drawer__inner .orderable-product__hero {
+	display: none;
+}
+
+.orderable-product--options .orderable-product__title {
+	margin-top: 45px !important;
+	margin-bottom: 24px !important;
+}
+
+.orderable-accordion {
+    background: #fafafa;
+    border-radius: 0px;
+}
+
+.orderable-accordion__item-link--active:before {
+    background-color: #0a0a0a !important;
+}
+
+.orderable-input--select, select.orderable-input--select {
+	border: 2px solid #0a0a0a !important;
+	border-radius: 0px;
+}
+
+
+.orderable-drawer__close:after {
+    background-color: #0a0a0a !important;
+}
+
+.orderable-drawer__close:before {
+    background-color: #0a0a0a !important;
+}
+
+.orderable-drawer__close {
+    border-color: #0a0a0a !important;
+}
+
+.orderable-drawer__close:hover {
+    background-color: #0a0a0a !important;
+    border-color: #0a0a0a !important;
+}
+
+.orderable-drawer__close:hover:before {
+    background-color: #fff !important;
+}
+
+.orderable-drawer__close:hover:after {
+    background-color: #fff !important;
+}
+
+.orderable-product--options .orderable-product__actions {
+    border-top: 1px solid #00632F !important;
+}
+
+
+
+/*add to cart slideout drawer window*/
+.orderable-cart-bumps {
+    background: #fafafa;
+    border-radius: 0px;
+}
+
+.orderable-drawer__cart .orderable-mini-cart__total {
+    border-top: 1px solid #00632F;
+}
+
+
+.orderable-drawer__cart .orderable-mini-cart-item__remove svg {
+    fill: #0a0a0a;
+}
+
+.orderable-quantity-roller__price:before {
+    color: #999999;
+}
+
+.orderable-quantity-roller__roller {
+    border: 2px solid #efefef;
+}
+
+.orderable-quantity-roller__button {
+	color: #999999;
+}
+
+.orderable-quantity-roller__button:hover{
+    background-color: #efefef;
+}
+
+.orderable-button--filled {
+	color: #ffffff !important;
+}
+
+.orderable-drawer__cart .orderable-mini-cart__buttons .button.checkout {
+    font-family: 'Platform Web';
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.orderable-input--select, select.orderable-input--select{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 60px;
+    color: #0a0a0a;
+    font-size: 16px;
+}
+
+.orderable-product__options th {
+	font-size: 16px;
+}
+
+/*orderable checkout page*/
+body.woocommerce-checkout * {
+    font-family: 'Lyon Display Web';
+	color: #0a0a0a;
+}
+
+body.woocommerce-checkout dl dt {
+    font-weight: 500;
+}
+body.woocommerce-checkout h2 {
+	margin: 10px 0 !important;
+}
+
+body.woocommerce-checkout h3 {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'platform web' !important;
+    text-transform: uppercase;
+}
+
+.orderable-checkout__form .checkout_left_section {
+    width: 50%;
+    background-color: #fafafa;
+    border: 1px solid #Efefef;
+    border-radius: 0px;
+    padding: 2em;
+}
+
+.orderable-checkout__form .checkout_right_section {
+    border: 1px solid #Efefef;
+    border-radius: 0px;
+    padding: 2em;
+}
+
+.woocommerce form .form-row input.input-text {
+    background-color: #ffffff !important;
+    border: 1px solid #999999;
+}
+
+.woocommerce form .form-row textarea {
+    background-color: #ffffff !important;
+    border: 1px solid #999999;
+}
+
+body.woocommerce-checkout .woocommerce-terms-and-conditions-wrapper .woocommerce-privacy-policy-text p {
+    font-family: 'lyon display italic web' !important;
+	margin-bottom: 20px;
+}
+
+.pickup-location-field.pickup-location-cart-item-field { 
+	display: none;
+}
+
+.orderable-checkout-logo_image {
+    height: 145px;
+}
+	
+body.woocommerce-checkout .woocommerce-error {
+    background-color: #e2401c !important;
+}
+
+.orderable-checkout__cart-shipping-total {
+	display: none;
+}
+
+.woocommerce-checkout-review-order-table .woocommerce-shipping-totals td:first-of-type {
+	display: none;
+}
+
+.ui-datepicker.pickup-location-appointment-datepicker table.ui-datepicker-calendar td.ui-datepicker-unselectable span {
+    opacity: .1 !important;
+}
+	
+.ui-datepicker.ui-widget td a {
+    color: #0a0a0a;
+}
+
+
+/**********************/
+/*** RESPONSIVENESS ***/
+/**********************/
+/*** Kill the Horizontal Overflow Scrollbar ***/
+#page-container {
+    overflow-x: hidden;
+}
+
+
+/*** MAKE SITE WIDER ON SMALLER SCREENS ***/
+@media only screen and (max-width: 980px) {
+.et_pb_row {
+	width: 98% !important;
+}
+
+/*** events + classes page ***/
+.mec-event-list-standard .mec-col-table-c.mec-event-content-wrap {
+    padding: 10px 10px 10px 10px;
+}
+	
+.mec-event-list-standard .mec-col-table-c.mec-event-content-wrap {
+    display: block;
+    min-height: 20px;
+}
+	
+.mec-event-list-standard .mec-event-title a {
+	font-size: 20px !important;
+}
+	
+.mec-booking-modal .mec-booking-shortcode button#mec-book-form-btn-step-2 {
+    margin-left: 0px;
+	padding: 10px 10px;
+}
+	
+.mec-events-meta-group-booking .mec-booking-shortcode button.mec-book-form-back-button#mec-book-form-back-btn-step-2 img.mec-svg-icon {
+	margin-right: 10px;
+	}
+
+	.mec-booking-modal .mec-events-meta-group-booking-shortcode {
+    padding: 0px !important;
+}
+
+	.mec-events-meta-group-booking .mec-booking-shortcode ul.mec-book-tickets-reg-fields-container {
+		margin: 0 !important;
+	}
+	.mec-events-meta-group-booking .mec-booking-shortcode .mec-booking-checkout-coupon-wrapper {
+		width: 300px;
+	}
+	
+.mec-event-list-standard .mec-col-table-c.mec-event-image-wrap, .mec-event-list-standard .mec-col-table-c.mec-event-image-wrap img {
+    float: none;
+    width: 80%;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+	
+	body .featherlight .featherlight-close-icon {
+    border-color: #000 !important;
+}
+
+/*** take and bake ordering page ***/
+body .tina_you_again_tabs .et_pb_tabs .et_pb_tabs_controls {
+        width:0px !important;
+        padding-left: 0px !important;
+    }
+
+    .tina_you_again_tabs .et_pb_tabs .et_pb_all_tabs {
+        padding-left: 10px !important;
+    }
+
+    .tina_you_again_tabs .et_pb_tabs ul.et_pb_tabs_controls li:after {
+        width: 25px !important;
+    }
+	
+	#page-container .tina_you_again_tabs .et_pb_tab .et_pb_tab_content h2 {
+    color: inherit !important;
+    font-family: 'Lyon Display Web'!important;
+    font-weight: 400 !important;
+    font-size: 26px !important;
+	padding-bottom: 0px !important;
+}
+
+	.bg-opt-in {
+	background-position: 0px 0px;
+	}
+	
+	
+/*** checkout page ***/
+.orderable-checkout-logo_image {
+    height: 100px;
+}
+	
+.orderable-checkout__form .checkout_left_section {
+    width: 100%;
+    background-color: #fafafa;
+    border: 1px solid #Efefef;
+    border-radius: 0px;
+	padding: 3vw;
+	margin: 0;
+}
+.orderable-checkout__form .checkout_right_section {
+	margin: 0;
+	}
+}
+
+
+
+/*tiny old phones*/
+@media only screen and (max-width: 359px) {}
+
+
+
+/*tablets*/
+@media only screen and (max-width: 980px) {
+	/*** events + classes page ***/
+	.featherlight .featherlight-inner {
+    	width: 700px;
+		height: 780px;
+}
+}
+
+
+/*ipad pro 12 inch + landscape ipads*/
+@media only screen and (max-width: 1025px) and (min-width: 835px) {
+.slide-in-menu-container {
+		width: 35% !important;
+	}
+
+	.ipad-pro {
+		width: 100% !important;
+	}
+	
+	.ipad-pro-header{
+		font-size: 36px !important;
+	}
+	
+	.watercolor-ipad-pro {
+		width: 65% !important;
+		top: -200px !important;
+    	left: -80px !important;
+	}
+}
+
+
+/*large laptops & desktop*/
+@media only screen and (max-width:1390px) {}
